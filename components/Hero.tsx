@@ -198,6 +198,16 @@ export const Hero: React.FC<HeroProps> = ({ onOpenModal, onCopyEmail }) => {
                 GitHub Profile
               </a>
 
+              <a
+                href="https://drive.google.com/file/d/1EZjAboGyWFoupXcEUmrR8NEzGJBYI2VR/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-sticker btn-yellow"
+                title="View Resume in Google Drive"
+              >
+                <span style={{ fontSize: '1.2rem' }}>📄</span> View Resume
+              </a>
+
               <button className="btn-sticker btn-cyan btn-sm" onClick={onCopyEmail}>
                 📋 Copy Email
               </button>

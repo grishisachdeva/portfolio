@@ -118,6 +118,15 @@ export const Footer: React.FC = () => {
                   GitHub Profile
                 </a>
               </li>
+              <li className="footer-link-item">
+                <a
+                  href="https://drive.google.com/file/d/1EZjAboGyWFoupXcEUmrR8NEzGJBYI2VR/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📄 View Resume (PDF)
+                </a>
+              </li>
             </ul>
           </div>
         </div>

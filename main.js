@@ -500,7 +500,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (soundToggleBtn) {
     soundToggleBtn.addEventListener('click', () => {
       const active = sounds.toggle();
-      soundToggleBtn.innerHTML = active ? '🔔 Sound ON' : '🔕 Sound OFF';
+      soundToggleBtn.innerHTML = active ? 'Sound ON' : 'Sound OFF';
       soundToggleBtn.style.backgroundColor = active ? 'var(--color-yellow)' : 'var(--color-paper)';
       if (active) sounds.playPop();
     });

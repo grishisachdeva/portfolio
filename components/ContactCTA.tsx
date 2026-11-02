@@ -130,6 +130,18 @@ export const ContactCTA: React.FC<ContactCTAProps> = ({
             <span>🐙</span>
             <span>github.com/grishisachdeva</span>
           </a>
+
+          <a
+            href="https://drive.google.com/file/d/1EZjAboGyWFoupXcEUmrR8NEzGJBYI2VR/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-pill-item"
+            title="View Resume in Google Drive"
+          >
+            <span>📄</span>
+            <span>Resume (Google Drive)</span>
+            <span style={{ fontSize: '0.75rem', color: 'var(--color-ink-muted)' }}>[view ↗]</span>
+          </a>
         </div>
       </div>
     </section>
