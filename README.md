@@ -1,7 +1,7 @@
 # 🚀 Grishi Sachdeva — Portfolio Website
-### Exact Neo-Brutalist Sticker Aesthetic Replica of [Wakeout.app](https://wakeout.app/)
+### Exact Neo-Brutalist Sticker Aesthetic Replica of [Wakeout.app](https://wakeout.app/) built in Next.js
 
-A high-performance, playful, neo-brutalist portfolio built with **HTML5, Vanilla CSS3, and JavaScript**. Designed with the exact visual language, sticker drop-shadows, animations, Google Fonts (`Fredoka` & `Space Grotesk`), custom SVG graphics, and interactive Web Audio sound effects seen on Wakeout.app.
+A high-performance, playful, neo-brutalist portfolio built with **Next.js, React, TypeScript, and CSS3**. Designed with the exact visual language, sticker drop-shadows, animations, Google Fonts (`Fredoka` & `Space Grotesk`), custom SVG graphics, and interactive Web Audio sound effects seen on Wakeout.app.
 
 ---
 
@@ -9,6 +9,7 @@ A high-performance, playful, neo-brutalist portfolio built with **HTML5, Vanilla
 
 | Wakeout.app Feature | Grishi Sachdeva Portfolio Replica |
 |---------------------|-----------------------------------|
+| **Framework** | **Next.js App Router (React 19 & TypeScript)** with full server-side prerendering & client interactivity |
 | **Palette** | Warm Cream Paper (`#fff8e6`), Forest Green Ink/Stage (`#043629`), Lime (`#68be00`), Yellow (`#ffc629`), Ember Coral (`#ff6b3e`), Cyan (`#00b6d2`), Purple (`#8a38f5`), Pink (`#f66f8e`) |
 | **Typography** | `Fredoka` (Display Headings, Badges, Buttons) + `Space Grotesk` (Body, Specs) |
 | **Borders & Shadows** | Crisp `3px` / `4px` solid borders with chunky tactile drop-shadows (`4px 4px 0px`, `8px 8px 0px`) and tactile `:active` press effects |
@@ -18,6 +19,7 @@ A high-performance, playful, neo-brutalist portfolio built with **HTML5, Vanilla
 | **Dark Stage Section** | Deep forest green stage section showcasing 6 flagship projects with category filters and interactive modal deep-dive inspection |
 | **Interactive Arcade** | 8-bit Web Audio sound synthesizer (`Pop`, `Coin`, `Laser Zap`, `Confetti Fanfare`) + global "Wiggle Mode" physics easter egg |
 | **Confetti Engine** | Lightweight zero-dependency HTML5 Canvas particle confetti system on button clicks and CTA conversions |
+| **Direct Contact** | One-click Gmail compose redirection, automated email copy fallback, and LinkedIn integration |
 
 ---
 
@@ -51,31 +53,30 @@ A high-performance, playful, neo-brutalist portfolio built with **HTML5, Vanilla
 
 ## 💻 How to Run Locally
 
-You can run this project with zero dependencies using Node.js:
+You can run this project using Next.js:
 
 ```bash
-# Option 1: Using built-in lightweight static server
-node server.js
+# Start Next.js development server
+npm run dev
+
+# Or build and test production bundle
+npm run build
+npm run start
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Or with `npm`:
-```bash
-npm start
-```
-
 ---
 
-## 🚀 How to Deploy
+## 🚀 How to Deploy to Vercel / Netlify
 
-### Option 1: GitHub Pages
-1. Push this folder to a GitHub repository named `portfolio` or `<your-username>.github.io`.
-2. Go to **Settings > Pages** and select `main` branch root.
-3. Your portfolio is instantly live with zero configuration!
-
-### Option 2: Vercel / Netlify
-1. Run `npx vercel` or drag-and-drop the directory into the Vercel dashboard.
-2. It deploys automatically as a static web application.
+1. Push this repository to GitHub:
+   ```bash
+   git add .
+   git commit -m "Migrate portfolio to Next.js"
+   git push origin main
+   ```
+2. Import the repository into **[Vercel](https://vercel.com/)** or **[Netlify](https://netlify.com/)**.
+3. It detects Next.js automatically and deploys in seconds!
 
 ---
 

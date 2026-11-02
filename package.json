@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Portfolio of Grishi Sachdeva — exact replica aesthetic of Wakeout.app with personalized AI & Full-Stack projects",
   "scripts": {
-    "start": "npx -y serve . -l 3000",
-    "dev": "npx -y serve . -l 3000"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [
     "portfolio",
@@ -15,5 +16,15 @@
     "grishi-sachdeva"
   ],
   "author": "Grishi Sachdeva",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "^16.4.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
 }
