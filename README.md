@@ -1,13 +1,9 @@
 # 🚀 Grishi Sachdeva — Portfolio Website
-### Exact Neo-Brutalist Sticker Aesthetic Replica of [Wakeout.app](https://wakeout.app/) built in Next.js
-
-A high-performance, playful, neo-brutalist portfolio built with **Next.js, React, TypeScript, and CSS3**. Designed with the exact visual language, sticker drop-shadows, animations, Google Fonts (`Fredoka` & `Space Grotesk`), custom SVG graphics, and interactive Web Audio sound effects seen on Wakeout.app.
-
 ---
 
-## 🎨 Features & Wakeout Design System Equivalents
+## 🎨 Features
 
-| Wakeout.app Feature | Grishi Sachdeva Portfolio Replica |
+ | Grishi Sachdeva Portfolio |
 |---------------------|-----------------------------------|
 | **Framework** | **Next.js App Router (React 19 & TypeScript)** with full server-side prerendering & client interactivity |
 | **Palette** | Warm Cream Paper (`#fff8e6`), Forest Green Ink/Stage (`#043629`), Lime (`#68be00`), Yellow (`#ffc629`), Ember Coral (`#ff6b3e`), Cyan (`#00b6d2`), Purple (`#8a38f5`), Pink (`#f66f8e`) |
